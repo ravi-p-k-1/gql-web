@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { gql, useQuery } from '@apollo/client'
 import { BookObject } from '../interfaces/Book';
 import BookComponents from './BookComponents';
